@@ -13,7 +13,8 @@ else
   echo "⛔ 업데이트를 건너뜁니다."
 fi
 
-sudo apt install -y xfce4 xfce4-goodies xrdp x11vnc python3-pip git curl net-tools python3-tk python-dev
+sudo apt install -y xfce4 xfce4-goodies xrdp x11vnc python3-pip git curl net-tools 
+sudo apt install -y gnome-screenshot python3-tk python-dev
 
 # 2. XRDP 설정 및 사용자 등록
 sudo systemctl enable xrdp
